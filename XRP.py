@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from matplotlib import style
 
-APIKey = "gizpFmRS4jrXdqYNF90dJfLZrKo6omEpAU4lsGcj0RY2MZ7veF9UfDM4m1o1m1RD"
-SecretKey = "Eclk74O1i5Nett8ItHvchfz6PKoOrEl8Fg7BmjBDsXz65VwYnlpRwQtQsk6FGIpB"
+APIKey = "YOUR-TOKEN"
+SecretKey = "YOUR-TOKEN"
 client = Client(APIKey, SecretKey)
 
 symbol = 'XRPEUR'
@@ -55,4 +55,3 @@ ax1 = fig.add_subplot(1, 1, 1)
 
 ani = animation.FuncAnimation(fig, test, interval=100)
 plt.show()
-

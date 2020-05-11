@@ -4,8 +4,8 @@ from binance.client import Client
 import smtplib
 import ssl
 import math
-APIKey = "gizpFmRS4jrXdqYNF90dJfLZrKo6omEpAU4lsGcj0RY2MZ7veF9UfDM4m1o1m1RD"
-SecretKey = "Eclk74O1i5Nett8ItHvchfz6PKoOrEl8Fg7BmjBDsXz65VwYnlpRwQtQsk6FGIpB"
+APIKey = "YOUR-TOKEN"
+SecretKey = "YOUR-TOKEN"
 client = Client(APIKey, SecretKey)
 
 symbol = 'ETHEUR'
